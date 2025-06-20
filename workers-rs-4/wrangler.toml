@@ -1,0 +1,12 @@
+name = "workers-rs-2"
+main = "build/worker/shim.mjs"
+compatibility_date = "2023-03-22"
+nodejs_compat = true
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "db123"
+database_id = ""

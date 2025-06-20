@@ -1,0 +1,16 @@
+{
+  "name": "workers-rs-2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "RUST_LOG=info wrangler dev",
+    "deploy": "RUST_LOG=info wrangler deploy",
+    "tail": "wrangler tail",
+    "docs": "wrangler docs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250620.0",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.20.3"
+  }
+}
