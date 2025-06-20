@@ -13,6 +13,8 @@ Cloudflare Workers + Rust API , example
 ***
 ### Blog
 
+https://zenn.dev/knaka0209/scraps/7f4b85e6f92f25
+
 ***
 
 
